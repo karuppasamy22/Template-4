@@ -1,0 +1,684 @@
+*{
+	font-family: century gothic;
+	text-decoration: none;
+}
+.head1{
+	width: 100%;
+	background: #f2f2f2;
+	float:left;
+}
+.head1 .p1{
+	float:left;
+	margin:10px 30px 10px 65px;
+}
+.head1 .p2{
+	float:left;
+	margin:10px 0px;
+}
+.head2{
+	width: 100%;
+}
+.head2 img{
+	float:left;
+	width: 80px;
+	height: 35px;
+	margin: 20px 0px 10px 65px; 
+}
+.head2 .span1{
+	 margin-left: 41%; 
+}
+.head2 .span1 a{
+	float: left;
+	margin: 32px 20px 0px 20px;
+	color: black;
+	font-size: 15px;
+}
+.head2 .span1 select{
+	float: left;
+	margin: 32px 20px 0px 20px;
+	border: none;
+	font-size: 15px;
+}
+.head2 .span1 a:hover{
+	color: #ff9900;
+}
+.head2 .span1 select:hover{
+	color: #ff9900;
+}
+.head3 .slide{
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-top:20px;
+	height: 450px;
+	background-attachment: fixed;
+	background: url("../images/slider-img1.jpg");
+	animation: slide 15s infinite;
+}
+@keyframes slide{
+	50%{
+		background: url("../images/slider-img2.jpg");
+	}
+	75%{
+		background: url("../images/slider-img3.jpg");
+	}
+	100%{
+		background: url("../images/slider-img1.jpg");
+	}
+}
+.head3 .span2{
+	float: left;
+	width: 35%;
+	height: 300px;
+	background-color: white;
+	position: absolute;
+	top: 215px;
+	left: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	opacity: 0.8;
+	border-radius: 10px;
+}
+.head3 .span2 h1{
+	font-size: 40px;
+}
+.head3 .span2 button{
+	padding: 5px 15px;
+	background-color: #ff6600;
+	border: 1px solid #ff6600;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+}
+.head3 .span2 button:hover{
+	background-color: #ff6600;
+	color: white;
+	border: 1px solid #ff6600;
+	font-weight: bold;
+	font-size: 15px;
+}
+.head4{
+	float: left;
+	clear: both;
+	margin: 10px;
+	padding-top: 50px;
+}
+.head4 .span1{
+	float: left;
+	width: 25%;
+	margin: 50px 100px;
+}
+.head4 .span1 h1{
+	font-size: 40px;
+}
+.head4 .span1 button{
+	background-color: #ff6600;
+	color: white;
+	border: 1px solid #ff6600;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px 15px;
+}
+.head4 .span2{
+	width: 25%;
+	max-height: 140px;
+	padding: 30px 15px;
+	margin: 15px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+}
+.head4 .span2 img{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 280px;
+	width: 60px;
+	height: 60px;
+}
+.head4 .span3{
+	width: 25%;
+	height: 140px;
+	padding: 25px 15px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;margin: 15px;
+}
+.head4 .span3 img{
+	position: absolute;
+	margin-top: 95px;
+	margin-left: 280px;
+	width: 60px;
+	height: 60px;
+}
+.head4 .span4{
+	width: 25%;
+	max-height: 140px;
+	padding: 30px 15px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;margin: 15px;
+}
+.head4 .span4 img{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 280px;
+	width: 60px;
+	height: 60px;
+}
+.head4 .span5{
+	width: 25%;
+	max-height: 120px;
+	padding: 30px 15px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;margin: 15px;
+}
+.head4 .span5 img{
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 280px;
+	width: 60px;
+	height: 60px;
+}
+.head5{
+	float:left;
+	clear: both;
+	margin: 10px;
+}
+.head5 .span1 h1{
+	float: left;
+	width: 35%;
+	margin: 50px 100px 0px 100px;
+	font-size: 40px;
+}
+.head5 .span1 p{
+	float: left;
+	width: 45%;
+	margin-top: 100px; 
+}
+.head6 .span1{
+	width: 25%;
+	max-height: 200px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+	margin: 10px 10px 10px 100px;
+	padding: 15px;
+}
+.head6 .span2{
+	width: 25%;
+	max-height: 200px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+	margin: 10px 10px;padding: 15px;
+}
+.head6 .span3{
+	width: 25%;
+	max-height: 200px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+	margin: 10px 10px;padding: 15px;
+}
+.head7 img{
+	float: left;
+	width: 100%;
+	height: 380px;
+	margin-top: 30px;
+}
+.head7 h1{
+	font-size: 40px;
+	position: relative;
+	top: 300px;
+	text-align: center;
+	padding: 0px 250px;
+}
+.head7 button{
+	position: relative;
+	color: black;
+	background-color: none;
+	border: 1px solid black;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px 15px;
+	top:320px;
+	left: 500px; 
+	margin: 0px 10px;
+	width: 150px;
+	height: 40px;
+
+}
+.head7 button:hover{
+	color:white;
+	background-color:#ff6600;
+	border: 1px solid #ff6600; 
+}
+.head8{
+	margin: 80px 100px;
+}
+.head8 .span1{
+	margin-top: 70px;
+	float: left;
+	width: 45%;
+}
+.head8 .span1 h1{
+	font-size: 40px;
+}
+.head8 .span1 h4{
+	border-radius:7px;
+	padding:15px;
+	background-color: #f2f2f2;
+}
+.head8 .span1 .p2{
+	padding-left: 20px;
+}
+.head8 .span2{
+	margin-top: 40px;
+	float: left;
+	width: 35%;
+}
+.head8 .span2 img{
+	height: 600px;
+	margin-left: 100px;
+}
+.head9 .bg{
+	width: 100%;
+	height: 800px;
+}
+.head9 .source{
+	float: left;
+}
+.head9{
+	float:left;
+}
+.head9 h1{
+	position: absolute;
+	font-size: 40px;
+	padding-left: 100px;
+	padding-top: 70px;
+}
+.head9 .span1{
+	position: absolute;
+	padding-top: 200px;
+}
+.head9 .span1 .span2{
+	float: left;
+	margin-left: 100px;
+}
+.head9 .span1 .span2 img{
+	border-radius: 10px;
+}
+.head9 .span1 .span2 h3{
+	position: absolute;
+	margin-top: 386px;
+	background-color: black;
+	padding:40px 193px 40px 40px;
+	opacity: 0.8;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.head9 .span1 .span2 p{
+	position: absolute;
+	margin-top: 455px;
+	padding-left:40px;
+	color: white;
+}
+.head9 .span1 .span3{
+	float: left;
+	margin-left: 30px;
+}
+.head9 .span1 .span3 img{
+	border-radius: 10px;
+}
+.head9 .span1 .span3 h3{
+	position: absolute;
+	margin-top: 386px;
+	background-color: black;
+	padding:40px 231px 40px 40px;
+	opacity: 0.8;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.head9 .span1 .span3 p{
+	position: absolute;
+	margin-top: 455px;
+	padding-left:40px;
+	color: white;
+}
+.head9 .span1 .span4{
+	float: left;
+	margin-left: 30px;
+}
+.head9 .span1 .span4 img{
+	border-radius: 10px;
+}
+.head9 .span1 .span4 h3{
+	position: absolute;
+	margin-top: 386px;
+	background-color: black;
+	padding:40px 224px 40px 40px;
+	opacity: 0.8;
+	color: white;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.head9 .span1 .span4 p{
+	position: absolute;
+	margin-top: 455px;
+	padding-left:40px;
+	color: white;
+}
+.head10{
+	width: 100%;
+}
+.head10 .span1{
+	float:left;
+}
+.head10 .span1 h1{
+	float: left;
+	width: 35%;
+	margin: 50px 100px 0px 100px;
+	font-size: 40px;
+}
+.head10 .span1 button{
+	color:#999999;
+	float: left;
+	background-color:white;
+	border: 1px solid #d9d9d9;
+	font-weight: bold;
+	font-size: 15px;
+	border-radius: 5px;
+	padding: 5px 15px; 
+	margin: 100px 10px 0px 400px;
+	width: 150px;
+	height: 40px;
+
+}
+.head10 .span1 button:hover{
+	color:white;
+	background-color:#ff6600;
+	border: 1px solid #ff6600; 
+}
+.head11{
+	float: left;clear: both;
+	padding:30px;
+	margin-top: 30px;
+}
+.head11 .span1{
+	width: 25%;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	padding: 25px;
+	margin-left: 80px;
+}
+.head11 .span1:hover{
+	border: 1px solid #ff6600;
+}
+.head11 .span1 img{
+	border-radius: 50%;
+	float: left;
+}
+.head11 .span1 .p1{
+	float: left;
+	margin-left: 30px;
+}
+.head11 .span1 .p2{
+	float: left;
+}
+.head11 .span2{
+	width: 25%;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+	padding: 25px;
+	margin-left: 20px;
+}
+.head11 .span2:hover{
+	border: 1px solid #ff6600;
+}
+.head11 .span2 img{
+	border-radius: 50%;
+	float: left;
+}
+.head11 .span2 .p1{
+	float: left;
+	margin-left: 30px;
+}
+.head11 .span2 .p2{
+	float: left;
+}
+.head11 .span3{
+	width: 25%;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius: 10px;
+	padding: 25px;
+	margin-left: 20px;
+}
+.head11 .span3:hover{
+	border: 1px solid #ff6600;
+}
+.head11 .span3 img{
+	border-radius: 50%;
+	float: left;
+}
+.head11 .span3 .p1{
+	float: left;
+	margin-left: 30px;
+}
+.head11 .span3 .p2{
+	float: left;
+}
+.head12{
+	float: left;
+	clear: both;
+}
+.head12 img{
+	width: 100%;
+	float: left;clear: both;
+}
+.head12 .span1{
+	position: absolute;
+	float: left;
+	clear: both;
+	padding-left: 100px;
+}
+.head12 .span1 h1{
+	float: left;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.head12 .span1 p{
+	float: left;
+	margin-top:50px;
+}
+.head12 .span2{
+	position: absolute;
+	float: left;
+	clear: both;
+	padding-left: 30%;
+}
+.head12 .span2 h1{
+	float: left;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.head12 .span2 p{
+	float: left;
+	margin-top:50px;
+}
+.head12 .span3{
+	position: absolute;
+	float: left;
+	clear: both;
+	padding-left: 55%;
+}
+.head12 .span3 h1{
+	float: left;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.head12 .span3 p{
+	float: left;
+	margin-top:50px;
+}
+.head12 .span4{
+	position: absolute;
+	float: left;
+	clear: both;
+	padding-left: 80%;
+}
+.head12 .span4 h1{
+	float: left;
+	font-size: 50px;
+	margin-top: 40px;
+}
+.head12 .span4 p{
+	float: left;
+	margin-top:50px;
+}
+.head13{
+	width: 100%;
+}
+.head13 .span1{
+	float:left;
+}
+.head13 .span1 h1{
+	float: left;
+	width: 50%;
+	margin: 50px 100px 0px 100px;
+	font-size: 40px;
+}
+.head14{
+	float: left;clear: both;
+	padding:30px;
+	margin-top: 30px;
+}
+.head14 .span1{
+	width: 25%;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius:10px;
+	padding: 40px 25px 40px 25px;
+	margin-left: 80px;
+}
+.head14 .span1:hover{
+	border: 1px solid #ff6600;
+	color: white;
+	background-color: #ff6600;
+}
+.head14 .span2{
+	width: 25%;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius:10px;
+	padding: 40px 25px 40px 25px;
+	margin-left: 30px;
+}
+.head14 .span2:hover{
+	border: 1px solid #ff6600;
+	color: white;
+	background-color: #ff6600;
+}
+.head14 .span3{
+	width: 25%;
+	float: left;
+	border: 1px solid #d9d9d9;
+	border-radius:10px;
+	padding: 40px 25px 40px 25px;
+	margin-left: 30px;
+}
+.head14 .span3:hover{
+	border: 1px solid #ff6600;
+	color: white;
+	background-color: #ff6600;
+}
+.head15{
+	float: left;
+	clear: both;
+}
+.head15 .span6{
+	float: left;
+	clear: both;
+	position: absolute;
+	padding: 20px 100px;
+	background-color: #2f3a55;
+	width: 84%;
+	height: 265px;
+	color: white;
+}
+.head15 .span6 .span1{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span6 .span2{
+	float: left;
+	margin-left: 130px;
+}
+.head15 .span6 .span2 img{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span6 .span2 p{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span6 .span3{
+	float: left;
+	margin-left: 130px;
+}
+.head15 .span6 .span3 img{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span6 .span3 p{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span6 .span4{
+	float: left;
+	margin-left: 130px;
+}
+.head15 .span6 .span4 img{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span6 .span4 p{
+	float: left;
+	margin-top: 50px;
+}
+.head15 .span5{
+	background-color: #2f3a55;
+	float: left;
+	position: absolute;
+	margin-top:165px;
+	height: 140px;
+	width: 91%;
+	margin-left:50px;
+	color: white;
+	border-top: 1px solid;
+}
+.head15 .span5 p{
+	padding: 50px;
+}
+.head15 .span5 .img2{
+	float: left;
+	margin-top: -100px;
+	margin-left: 90%;
+}
+.head15 .img1{
+	float: left;
+	clear: both;
+	width: 100%;
+	margin-top: 165px;
+	color: #2f3a55;
+	opacity: 0.1;
+}
